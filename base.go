@@ -25,3 +25,7 @@ type CleanAble interface {
 type TableInf interface {
 	TableName() string
 }
+
+type InitAble interface {
+	Init() error
+}
